@@ -1,0 +1,158 @@
+.container{
+    background-image: url("bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    position: absolute;
+    width: 1400px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+}
+h1{
+    color: white;
+    position: relative;
+    left: 155px;
+    top: 270px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+}
+.subTitle{
+    color: white;
+    position: relative;
+    left: 155px;
+    top: 270px;
+    font-size: 15.5px;
+    line-height: 30px;
+}
+.applicationDiv{
+    
+    width: 700px;
+    height: 800px;
+    position: absolute;
+    right: 0;
+    
+}
+.topDiv{
+    width: 540px;
+    height: 60px;
+    background-color: hsl(248, 32%, 49%);
+    position: absolute;
+   
+    top: 120px;
+    left: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(241, 77, 77, 0.3) 0px 7px 13px -3px, rgba(233, 7, 7, 0.2) 0px -3px 0px inset;
+}
+.bottomDiv{
+    width: 540px;
+    height: 480px;
+    background-color: hsl(0, 0%, 99%);
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(241, 77, 77, 0.3) 0px 7px 13px -3px, rgba(233, 7, 7, 0.2) 0px -3px 0px inset;
+    
+}
+.freeTitle{
+    color: white;
+    text-align: center;
+}
+.freeTitle{
+    font-weight: 400;
+    color: hsl(246, 25%, 77%);
+}
+.form{
+    margin: 10px;
+    display: flex;
+    padding: 5px 40px;
+    flex-direction: column;
+}
+input{
+    padding: 15px;
+}
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+button{
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    padding: 20px;
+    border: none;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(154, 88%, 74%);
+}
+.myIcon1{
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    display: none;
+}
+.myIcon2{
+    position: absolute;
+    left: 450px;
+    top: 125px;
+    display: none;
+}
+.myIcon3{
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    display: none;
+}
+.myIcon4{
+    position: absolute;
+    left: 450px;
+    top: 275px;
+    display: none;
+}
+.fnError{
+    position: absolute; 
+    top: 70px;
+    left: 290px;
+    font-size: 14px;
+    color: hsl(0, 100%, 74%) ;
+    font-style: italic;
+    display: none;
+}
+.lnError{
+    position: absolute; 
+    top: 145px;
+    left: 290px;
+    font-size: 14px;
+    color: hsl(0, 100%, 74%) ;
+    font-style: italic;
+    display: none;
+}
+.emError{
+    position: absolute; 
+    top: 220px;
+    left: 290px;
+    font-size: 14px;
+    color: hsl(0, 100%, 74%) ;
+    font-style: italic;
+    display: none;
+}
+.psError{
+    position: absolute; 
+    top: 295px;
+    left: 290px;
+    font-size: 14px;
+    color: hsl(0, 100%, 74%) ;
+    font-style: italic;
+    display: none;
+}
+.terms{
+    font-size: 10px;
+    text-align: center;
+}
